@@ -19,7 +19,7 @@ ng serve
 
 .. and visit localhost:4200
 
-You can also check it out (here)[chadtech-kargo-project.surge.sh]
+[You can also check it out here](chadtech-kargo-project.surge.sh)
 
 # How this was made
 
@@ -73,7 +73,7 @@ This is my first angular application. I looked at a few boilerplates. What ended
 
 The instructions for this project invited me to explain this directory structure. Let me list out how I think about organization in these points..
 
-0 If there are pages to the application, make a directory for each page.
+*0* If there are pages to the application, make a directory for each page.
 
 1 If you have sub components that need to get rendered, organize them with the page they belong too. Only make a separate `Components` folder if there are many components that are used in multiple places. In my experience, most components, even if they're re-used, are rendered only in one place.
 
