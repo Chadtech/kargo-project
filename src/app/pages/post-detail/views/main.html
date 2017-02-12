@@ -1,0 +1,57 @@
+<p class="title">
+  post detail
+</p>
+<div *ngIf="post">
+  <p class="field">id</p>
+  <p class="content">{{post.id}}</p>
+
+  <p class="field">userId</p>
+  <p class="content">{{post.userId}}</p>
+
+  <p class="field">title</p>
+  <p class="content">{{post.title}}</p>
+
+  <p class="field">body</p>
+  <p class="content">{{post.body}}</p>
+</div>
+
+<div class="separator"></div>
+
+<div class="analytics-section">
+
+  <div class="left-section">
+    <p class="field">get analytics data</p>
+    <div class="inputs-container">
+      <p class="date-input-field">
+        from
+      </p>
+      <input 
+        class="date-input" 
+        placeholder="yyyy-mm-dd"
+        type="text" 
+        [(ngModel)]="fromField"
+        (keyup)="tryRequest()"
+      />
+      <p class="date-input-field">
+        to
+      </p>
+      <input 
+        class="date-input" 
+        placeholder="yyyy-mm-dd"
+        type="text" 
+        [(ngModel)]="toField"
+        (keyup)="tryRequest()"
+      />
+    </div>
+  </div>
+
+  <div class="right-section">
+    <p class="field">
+      Tracker Data
+    </p>
+    <div *ngFor="let adDay of adDays">
+      <ad-day-list-item [adDay]="adDay"></ad-day-list-item>
+    </div>
+  </div>
+
+</div>

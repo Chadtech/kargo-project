@@ -1,0 +1,26 @@
+.post-container {
+  display: block;
+  position: relative;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  padding-left: 4px;
+  border-bottom: 2px solid #40424c;
+  border-left: 2px solid #40424c;
+  margin-left: 2em; 
+  width: auto;  
+}
+
+.post-container:hover{
+  cursor: pointer;
+  background: #2b1200;
+}
+
+.post-id {
+  color: #acc0d6;
+}
+
+.post-title {
+  color: #d4cece;
+  left: 2em;
+  position: absolute;
+}

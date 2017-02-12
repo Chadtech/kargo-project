@@ -1,0 +1,52 @@
+.title {
+  margin-left: 1em;
+  color: #98a2ae;
+}
+
+.field {
+  margin-left: 2em;
+  color: #acc0d6;
+}
+
+.content {
+  margin-left: 3em;
+  color: #d4cece;
+}
+
+.separator {
+  width: 100%;
+  border-bottom: 2px solid #40424c;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.analytics-section {
+  position: relative;
+}
+
+.left-section {
+  position: absolute;
+  left: 0px;
+}
+
+.right-section {
+  position: absolute;
+  left: 300px;
+}
+
+.inputs-container {
+  margin-left: 3em;
+  height: 1.5em;
+  width: 100%;
+}
+
+.date-input {
+  display: inline;
+  background: none;
+  outline: none;
+  border: 2px solid #40424c;
+  font-family: sans-serif;
+  color: #808498;
+  font-size: 1em;
+  width: 6em;
+}

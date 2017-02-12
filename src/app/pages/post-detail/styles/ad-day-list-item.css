@@ -1,0 +1,30 @@
+.ad-day-container {
+  display: block;
+  position: relative;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #40424c;
+  padding-left: 4px;
+  border-left: 2px solid #40424c;
+  margin-left: 3em; 
+  width: auto;  
+}
+
+.ad-day-container:hover{
+  background: #2b1200;
+}
+
+.ad-day-id {
+  color: #acc0d6;
+  left: 3em;
+}
+
+.ad-day-date{
+  color: #d4cece;
+  left: 4em;
+}
+
+.ad-day-hits{
+  color: #d4d2c8;
+  left: 6em;
+}
