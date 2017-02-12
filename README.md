@@ -2,13 +2,11 @@
 
 Hi Kargo.
 
-To run this application, type..
+To run this application, clone this repo and type..
 
 ```
 node server.js
 ```
-
-.. into your terminal.
 
 Or, if you want to run it in dev, type..
 
@@ -19,7 +17,7 @@ ng serve
 
 .. and visit localhost:4200
 
-[You can also check it out here](chadtech-kargo-project.surge.sh)
+[It's also online, so you can also check it out here](chadtech-kargo-project.surge.sh)
 
 # How this was made
 
