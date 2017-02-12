@@ -17,7 +17,7 @@ ng serve
 
 .. and visit localhost:4200
 
-[It's also online, so you can also check it out here](https://chadtech-kargo-project.surge.sh)
+[It's also online, so you can also check it out here](http://chadtech-kargo-project.surge.sh)
 
 # How this was made
 
