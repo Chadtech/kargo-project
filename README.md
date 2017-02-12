@@ -25,7 +25,7 @@ ng serve
 
 This is my first angular application. I looked at a few boilerplates. What ended up working well for me was using the boilerplate made by the angular CLI command `ng new PROJECT_NAME`.
 
-# How the directories are organized
+# How this repo is organized
 
 ```
   src/
@@ -73,9 +73,9 @@ This is my first angular application. I looked at a few boilerplates. What ended
 
 The instructions for this project invited me to explain this directory structure. Let me list out how I think about organization in these points..
 
-*0* If there are pages to the application, make a directory for each page.
+**0** If there are pages to the application, make a directory for each page.
 
-1 If you have sub components that need to get rendered, organize them with the page they belong too. Only make a separate `Components` folder if there are many components that are used in multiple places. In my experience, most components, even if they're re-used, are rendered only in one place.
+**1** If you have sub components that need to get rendered, organize them with the page they belong too. Only make a separate `Components` folder if there are many components that are used in multiple places. In my experience, most components, even if they're re-used, are rendered only in one place.
 
 2 Views and styles should be organized together, but if they can't its no big deal. It only becomes a priority in big projects, or when different pages will plausibly require similarly named styles.
 
